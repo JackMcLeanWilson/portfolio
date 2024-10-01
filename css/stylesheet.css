@@ -19,6 +19,20 @@ header h1 {
     font-size: 175%;
 }
 
+.content {
+    align-items: center;
+    text-align: center;
+}
+
+.center {
+    align-items: center;
+    text-align: center;
+}
+
+.center h1 { 
+    color: #E88D67;
+}
+
 .celldisplay { 
     width: 50%;
     display: table-cell;
