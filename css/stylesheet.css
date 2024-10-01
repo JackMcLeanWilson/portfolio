@@ -20,13 +20,17 @@ header h1 {
 }
 
 .content {
+    padding-top: 125px;
     align-items: center;
     text-align: center;
+    font-family: "Montserrat", sans-serif;
 }
 
 .center {
     align-items: center;
     text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 .center h1 { 
