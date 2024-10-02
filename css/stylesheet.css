@@ -8,7 +8,6 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    padding-bottom: 10%;
     background-color: #f9f2f1;
 }
   
@@ -100,12 +99,19 @@ header h1 {
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    align-items: center;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
-    background-color: #006989;
+    background-color: #c95142;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 9px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .navbar ul {
