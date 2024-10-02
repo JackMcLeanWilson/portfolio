@@ -1,6 +1,15 @@
+/* 
+--text: #130c0b;
+--background: #f9f2f1;
+--primary: #c95142;
+--secondary: #eb9b91;
+--accent: #f06959; 
+*/
+
 body {
     font-family: "Montserrat", sans-serif;
     padding-bottom: 10%;
+    background-color: #f9f2f1;
 }
   
 p {
@@ -19,11 +28,41 @@ header h1 {
     font-size: 175%;
 }
 
-.content {
+.maincontent {
     padding-top: 125px;
     align-items: center;
     text-align: center;
     font-family: "Montserrat", sans-serif;
+}
+
+.secondarycontent {
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: #c95142;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.secondarycontent h2 {
+    color: #130c0b;
+}
+
+.secondarycontent p {
+    color: #130c0b;
+}
+
+.tertiarycontent {
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: #f9f2f1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tertiarycontent h2 { 
+    color: #c95142;
 }
 
 .center {
@@ -34,15 +73,19 @@ header h1 {
 }
 
 .center h1 { 
-    color: #E88D67;
+    color: #c95142;
+}
+
+.center b {
+    color: #c95142;
 }
 
 .celldisplay { 
-    width: 50%;
-    display: table-cell;
+    width:100px;
+    display: inline;
     text-align: left;
     margin: 10px;
-    padding-top: 85px;
+    align-content: center;
 }
 
 .title h2 {
@@ -50,6 +93,10 @@ header h1 {
     text-align: center;
     align-content: center;
     font-size: 120%;
+}
+
+.socialicon {
+    width: 50px;
 }
 
 .footer {
@@ -67,7 +114,7 @@ header h1 {
     left: 0;
     width: 100%; 
     height: 70px; 
-    background-color: #006989; 
+    background-color: #c95142; 
     color: white;
     display: flex;
     justify-content: space-around; 
@@ -91,6 +138,6 @@ header h1 {
 }
 
 .navbar li a:hover {
-    background-color: #005C78;
+    background-color: #eb9b91;
     font-weight: bold;
 }
